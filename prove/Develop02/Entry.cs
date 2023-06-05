@@ -5,12 +5,14 @@ class Entry
 
     public Entry(string _date, string _prompt, string _response)
     {
-        string._date
+        date = _date;
+        prompt = _prompt;
+        response = _response;
     }
 
     public void DisplayEntry()
     {
-
+        
     }
 
     public string getEntryAsCSV()
