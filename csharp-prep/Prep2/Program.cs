@@ -1,48 +1,45 @@
 using System;
 
 class Program
+
 {
     static void Main(string[] args)
     {
-       Console.WriteLine("what Percent did you get in the class?");
-       string answer = Console.ReadLine();
-       int precent = int.Parse(answer);
+        Console.WriteLine("what Percent did you get in the class? ");
+        string response = Console.ReadLine();
+        int precent = int.Parse(response);
+        string grade = "";
 
-       string letter = "";
-
-       if (precent >= 90)
-       {
-        letter = "A";
-       }
+        if (precent >= 90)
+        {
+            grade = "A";
+        }
         else if (precent >= 80)
         {
-            letter = "B";
+            grade = "B";
         }
         else if (precent >= 70)
         {
-            letter = "C";
+            grade = "c";
         }
         else if (precent >= 60)
         {
-            letter = "D";
+            grade = "D";
         }
         else
         {
-            letter = "F";
+            grade = "F";
         }
 
-        Console.WriteLine($"your grade is {letter}");
+        Console.WriteLine($"Your grade is a: {grade}!");
 
-        if (precent >= 70)
+        if (precent > 60)
         {
-            Console.WriteLine("you passed");
+            Console.WriteLine("You passed!");
         }
         else
         {
-            Console.WriteLine("better luck next time");
+            Console.WriteLine("Better luck next Time");
         }
-
-
-       
     }
 }

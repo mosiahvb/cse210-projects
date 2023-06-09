@@ -11,7 +11,7 @@ class Program
 
         while(userNumber != 0)
         {
-            Console.Write("enter a number (select 0 to quit ");
+            Console.Write("enter a number (select 0 to quit) ");
             string userRespons = Console.ReadLine();
             userNumber = int.Parse(userRespons);
 

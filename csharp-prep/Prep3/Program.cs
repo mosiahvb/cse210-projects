@@ -16,15 +16,15 @@ class Program
 
             if (magicNumber > guess)
             {
-                Console.WriteLine("higher");
+                Console.WriteLine("higher!");
             }
             else if (magicNumber < guess)
             {
-                Console.WriteLine("lower");
+                Console.WriteLine("lower!");
             }
             else
             {
-                Console.WriteLine("You Guessed it!");
+                Console.WriteLine("You Guessed it!!!");
             }
         }
     }
