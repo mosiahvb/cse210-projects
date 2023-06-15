@@ -3,13 +3,13 @@ using System;
 public class Job
 
 {
-    public string _JobTitle;
-    public string _Company;
-    public int _StartYear;
-    public int _EndYear;
+    public string _jobTitle;
+    public string _company;
+    public int _startYear;
+    public int _endYear;
 
     public void Display()
     {
-        Console.WriteLine($"{_JobTitle} ({_Company}){_StartYear}-{_EndYear} ");
+        Console.WriteLine($"{_jobTitle} ({_company}){_startYear}-{_endYear} ");
     }
 }
